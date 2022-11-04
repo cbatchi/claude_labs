@@ -1,0 +1,25 @@
+.navbar {
+  min-height: 50px;
+  background-color: var(--color-blue);
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  font-weight: var(--meduim-font);
+  font-size: 1.2rem;
+}
+
+.navbar .nav-button {
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: var(--color-blue);
+}
