@@ -2,12 +2,13 @@
   background-color: var(--color-blue);
   display: flex;
   justify-content: center;
+  color: var(--color-white);
 }
 
 .header-list {
   display: flex;
   gap: 40px;
-  padding:2rem  0;
+  padding: 2rem  0;
 }
 
 .header-list-item {
@@ -79,6 +80,7 @@
 .header-search-field .date {
   position: absolute;
   top: 50px;
+  z-index: 2;
 }
 .header-search-field input::placeholder,
 .header-search-field span {
@@ -115,6 +117,7 @@
   color: gray;
   border-radius: 5px;
   box-shadow: 0 0 10px -5px rgba(0,0,0,.4);
+  z-index: 2;
 }
 .option-content  {
   width: 200px;
