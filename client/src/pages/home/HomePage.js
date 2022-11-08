@@ -1,6 +1,7 @@
 import React from "react"
 import FeaturedComponent from "../../components/featured/FeaturedComponent"
 import FeaturedPropertyComponent from "../../components/featuredProperty/FeaturedPropertyComponent"
+import FooterComponent from "../../components/footer/FooterComponent"
 import HeaderComponent from "../../components/header/HeaderComponent"
 import MailListComponent from "../../components/maillist/MailListComponent"
 import NavbarComponent from "../../components/navbar/NavbarComponent"
@@ -20,6 +21,7 @@ const HomePage = () => {
       <div className="main-title container">Les hébergements que les clients adorent</div>
       <FeaturedPropertyComponent />
       <MailListComponent />
+      <FooterComponent />
     </>
   )
 }

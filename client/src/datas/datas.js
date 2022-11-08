@@ -144,3 +144,60 @@ export const featuredPropertyListDatas = [
       "https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=e148feeb802ac3d28d1391dad9e4cf1e12d9231f897d0b53ca067bde8a9d3355&o=&s=1",
   },
 ]
+
+export const footerContents = {
+  items: [
+    [
+      "Pays",
+      "Régions",
+      "Villes",
+      "Quartiers",
+      "Aéroports",
+      "Hôtels",
+      "Sites d'intérêt",
+    ],
+    [
+      "Hébergements indépendants",
+      "Appartements",
+      "Complexes hôteliers",
+      "Villas",
+      "Auberges de jeunesse",
+      "B&B / Chambres d'hôtes",
+      "Maisons d'hôtes",
+    ],
+
+    [
+      "Des hébergements uniques",
+      "Toutes les destinations",
+      "Découvrir",
+      "Commentaires",
+      "Articles",
+      "Communautés de voyageurs",
+      "Offres de voyage saisonnières",
+    ],
+    [
+      "Location de voitures",
+      "Comparateur de vols",
+      "Réservations de restaurant",
+      "Booking.com pour les Agents de Voyage",
+    ],
+    [
+      "FAQ sur le coronavirus (COVID-19)",
+      "À propos de Booking.com",
+      "Aide du Service Clients",
+      "Aide aux partenaires",
+      "Careers",
+      "Durabilité",
+      "Actualités presse",
+      "Centre des ressources en matière de sécurité",
+      "Relations avec les investisseurs",
+      "Conditions Générales d'Utilisation",
+      "Réclamation partenaires",
+      "Le fonctionnement de notre site",
+      "Charte de confidentialité et informations sur les cookies",
+      "Gérer les paramètres relatifs aux cookies",
+      "Charte MSA",
+      "Contacts de l'entreprise",
+    ],
+  ],
+}

@@ -1,0 +1,25 @@
+.footer {
+  width: 100%;
+}
+
+.footer-lists {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 25px 0;
+}
+.footer-list {
+  font-size: 14px;
+  color: var(--color-blue-secondary);
+  width: calc(100% / 4);
+}
+.footer-list li {
+  font-weight: 400;
+  padding: 0 0 10px 0;
+  font-size: 13px;
+  transition: .5s;
+}
+.footer-list li:hover a {
+  color: var(--color-yellow);
+}
