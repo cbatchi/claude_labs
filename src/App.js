@@ -16,7 +16,7 @@ const App = () => {
   return (
     <AppStyled>
       <AppStyledContainer>
-        <AppStyledForm onClick={handleSubmit}>
+        <AppStyledForm onSubmit={handleSubmit}>
           <h2>Se connecter</h2>
           <InputBox
             type="text"
