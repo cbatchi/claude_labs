@@ -2,19 +2,34 @@
   "name": "claude_labs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node -r dotenv/config ./api/server.js",
+    "server": "nodemon -r dotenv/config ./api/server.js",
+    "client": "npm i --prefix ./client && npm run start --prefix ./client",
+    "dev": "concurrently -n 'client,server' \"npm run client\" \"npm run server\" -c 'blue,green'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cbatchi/claude_labs.git"
   },
   "keywords": [],
+  "dependencies": {
+    "concurrently": "^7.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cbatchi/claude_labs/issues"
   },
-  "homepage": "https://github.com/cbatchi/claude_labs#readme"
+  "homepage": "https://github.com/cbatchi/claude_labs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
